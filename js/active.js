@@ -6,7 +6,7 @@
     $('.owl-carousel .owl-item').on('mouseleave',function(e){
         $(this).closest('.owl-carousel').trigger('play.owl.autoplay',[500]);
     })
-    
+
     if ($.fn.owlCarousel) {
         $(".hero-slides").owlCarousel({
             items: 1,
@@ -217,3 +217,12 @@
     });
 
 })(jQuery);
+
+try {
+    caches.keys().then(function(names) {
+        for (let name of names)
+            caches.delete(name);
+    })
+} catch (err) {
+    console.log(err)
+}

@@ -224,17 +224,6 @@ img {
     margin-left: 100px;
 }
 
-#preloader {
-    overflow: hidden;
-    background-color: #211b31;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999999;
-}
-
 .mosh-preloader {
     overflow: hidden;
     -webkit-animation: 3000ms linear 0s normal none infinite running mosh-preloader;
@@ -648,7 +637,7 @@ video {
 }
 
 .hero-padding {
-    padding-top: 100px; 
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 /* -------------------------
